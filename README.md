@@ -1,1 +1,1 @@
-# PDFWatermarker
+# PDFWatermarker Using C# and PDFSharp 7 (v 8.0.0)
