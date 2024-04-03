@@ -76,8 +76,3 @@ for (int i = 1; i <= page; i++)
     pdfStamper.Close();
 }
 Console.WriteLine("PDF signed successfully!");
-
-
-
-
-Console.WriteLine("PDF signed successfully!");
