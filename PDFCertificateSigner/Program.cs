@@ -21,9 +21,9 @@ string destinationPath = $"{pdfFileDirectory}{documentName}_signed.pdf";
 string digitalSignatureReason = "Pretty Darn Fast Signature";
 string digitalSignatureLocation = "Portsmouth, UK";
 
-// Step 3: Load PFX Certificate
+// Step 3: Load PFX Certificate - 
 string pfxFilePath = "C:\\Temp\\prettydarnfastcertificate256.pfx";
-string pfxPassword = "";
+string pfxPassword = ""; //DO NOT CHECK IN PASSWORD (even though it's just local)!
 
 
 
