@@ -12,10 +12,10 @@ Console.WriteLine("Start watermarking using iText7 (v8.0.0)");
 
 try
 {
-    string location = @"C:\Temp\";
-    string fileName = "testdoc.pdf";
-    // Ideal size lndscape="DRAFT COPY - THIS IS SOME ADDITIONAL TEXT THAT FILLS"
-    string watermarkText = "DRAFT COPY - THIS IS SOME ADDITIONAL TEXT THAT FILLS";
+    string location = @"C:\Users\Justi\OneDrive\Documents\Pretty Darn Fast\Book With Chapters\book pdf\";
+    string fileName = "20240114_v2_Pretty Darn Fast_Entire_Book_Spread_KEEP.pdf";
+    // Ideal size lndscape="DRAFT v1-Justin Jones PO7 8RT to Jane Finch 30 June 2023"
+    string watermarkText = "Draft 20240114v2- amjandjjj@gmail.com to kerry@windsorcme.com";
     bool isDocumentInPortrait = false;
 
 
@@ -78,6 +78,7 @@ try
     
   
     Console.WriteLine("Done");
+    Console.WriteLine($"See {fullPathDest}");
 
 
 }

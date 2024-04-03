@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PdfWatermarker", "PdfWatermarker\PdfWatermarker.csproj", "{AB480503-789B-4E12-BB09-7261719B4F6B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PdfWatermarker", "PdfWatermarker\PdfWatermarker.csproj", "{AB480503-789B-4E12-BB09-7261719B4F6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDFCertificateSigner", "PDFCertificateSigner\PDFCertificateSigner.csproj", "{0A2CDAC1-57B2-4B46-A068-EA6E148A8188}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{AB480503-789B-4E12-BB09-7261719B4F6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB480503-789B-4E12-BB09-7261719B4F6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB480503-789B-4E12-BB09-7261719B4F6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A2CDAC1-57B2-4B46-A068-EA6E148A8188}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A2CDAC1-57B2-4B46-A068-EA6E148A8188}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A2CDAC1-57B2-4B46-A068-EA6E148A8188}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A2CDAC1-57B2-4B46-A068-EA6E148A8188}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
